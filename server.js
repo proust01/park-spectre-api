@@ -1,6 +1,8 @@
+const _ = require('lodash')
 const express = require('express')
 const app = express()
 const PORT = process.env.PORT || 4567
+
 const cors = require('cors')
 
 const infoController = require('./controllers/infoController')
